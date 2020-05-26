@@ -20,8 +20,6 @@ module.exports = {
 
             value = Math.floor(value);
 
-            console.log('tio');
-
             await connection('cripto').insert({
 
                 value
